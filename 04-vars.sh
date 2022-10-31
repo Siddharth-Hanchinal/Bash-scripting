@@ -25,5 +25,5 @@ echo todays date is : $date
 
 date_command = $(date +%F)
 
-echo good morning todays date is date_command
+echo good morning todays date is $date_command
 
