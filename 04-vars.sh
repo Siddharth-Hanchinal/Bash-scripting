@@ -6,7 +6,6 @@ a=10
 b=abc 
 # abc is a string  
 
-d=150
 
 echo value of a is : $a 
 echo ${a}
