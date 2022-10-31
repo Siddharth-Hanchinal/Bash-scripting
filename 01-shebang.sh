@@ -5,5 +5,6 @@
 echo "Welcome to my project"
 
 echo hii
-ech hello
+
+echo hello
 
