@@ -1,8 +1,8 @@
 # Bash-scripting
 
-### This is the repository where we are going to learn bash and would like to automate our project.
+ This is the repository where we are going to learn bash and would like to automate our project.
 
- Also I'll give names as 00 , 01 ,02 ,03 to indicate the sequence to learn.
+### Also I'll give names as 00 , 01 ,02 ,03 to indicate the sequence to learn.
 
 
 ### Few of the git commands that we would use during our upcoming journey
