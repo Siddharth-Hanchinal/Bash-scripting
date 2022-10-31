@@ -23,7 +23,9 @@ date=2022-05-02
 
 echo todays date is : $date
 
-date_command = $(date +%F)
+DATE_COMMAND=$(date +%F)
 
-echo "good morning todays date is $date_command"
+
+
+echo "good morning todays date is $DATE_COMMAND"
 
