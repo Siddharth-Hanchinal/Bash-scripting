@@ -18,3 +18,7 @@ echo value of d is : $d
 
 # rm -rf  /data/${DIR}  
 # rm -rf /data/
+
+date=2022-05-02 
+
+echo todays date is : $date
