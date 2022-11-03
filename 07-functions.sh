@@ -11,3 +11,10 @@ sample
 sample 
 
 sample
+
+stat() {
+
+echo "the uptime is $(uptime |awk -F : '{print $NF}'| awk -F '{print $1}')"
+}
+
+stat
