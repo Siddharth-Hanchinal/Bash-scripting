@@ -29,6 +29,11 @@
 
 ACTION=$1
 
-if ("$ACTION = start") ; then
-    echo "starting the xys service"
-fi
+#if ["$ACTION = start"] ; then
+#    echo "starting the xys service"
+#fi
+
+if [ -z $ACTION ]; then 
+    echo "Argument is needed, Either start or stop are valid"
+    exit 1
+fi 
