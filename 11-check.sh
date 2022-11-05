@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(id-u)
+ID=$(id -u)
 
 if [ $ID = 0 ] ; then 
     echo "excuting the root user"
