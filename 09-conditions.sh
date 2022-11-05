@@ -22,5 +22,5 @@ case $Action in
     echo "restarting the service"
     ;;
 *)
-echo -e "\e[32m the only valid options are start stop and restart \e [0m"
+echo -e "\e[31m the only valid options are start, stop and restart \e[0m"
 esac
