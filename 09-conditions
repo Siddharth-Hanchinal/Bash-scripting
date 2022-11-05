@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#case $var in
+#   cond1)
+#   command ;;
+#   cond2)
+#   command ;;
+#   *)
+#    xyz ;;;
+#esac
+
+Action=$1
+
+case $Action in 
+    start)
+    echo "starting the xyz service"
+    ;;
+    stop)
+    echo "stoping the xyz service"
+    ;;
+    restart)
+    echo "restarting the service"
+    ;;
+*)
+echo "only valid options are start, stop, restart"
+esac
